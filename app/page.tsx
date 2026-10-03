@@ -16,7 +16,7 @@ export default function Home() {
           </div>
           <nav className="flex-1 p-3">
             {["Overview","Business Intelligence","Warehouse","Organizations","Analytics","System"].map((x) => (
-              <a href={"#" + x.toLowerCase().replaceAll(" ","-")} key={x} className="mb-1 block rounded-xl px-3 py-2.5 text-xs text-white/55 hover:bg-white/10 hover:text-white">{x}</a>
+              <a href={"#" + x.toLowerCase().replace(/ /g,"-")} key={x} className="mb-1 block rounded-xl px-3 py-2.5 text-xs text-white/55 hover:bg-white/10 hover:text-white">{x}</a>
             ))}
           </nav>
           <div className="border-t border-white/10 p-4 text-[10px] text-white/40">● Production · Central BI</div>
