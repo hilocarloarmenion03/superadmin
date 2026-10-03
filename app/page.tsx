@@ -1,3 +1,5 @@
+import { Activity, ArrowRight, BarChart3, CheckCircle2, CircleAlert, LineChart, Sparkles, Table2 } from "lucide-react";
+
 export default function Home() {
   const organizations = [
     ["Manga & Light Novel", "Source content", "monthly_revenue · top_chapters", "Sales, purchases, subscriptions", "blue"],
